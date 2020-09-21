@@ -2,10 +2,13 @@
   padding: 0px;
   margin: 0px;
 }
+body {
+  background-color: rgb(177, 239, 250);
+}
 
 header {
-  background-color: rgb(95, 53, 247);
-  color: rgb(42, 252, 0);
+  background-color: rgb(0, 10, 104);
+  color: rgb(0, 217, 255);
   width: 100%;
   position: fixed;
   top: 0;
@@ -30,7 +33,7 @@ nav li:hover {
 }
 nav li:hover a {
   background-color: rgb(0, 4, 255);
-  color: rgb(42, 252, 0);
+  color: rgb(0, 217, 255);
   text-decoration: underline;
 }
 header div {
@@ -51,10 +54,10 @@ footer {
   width: 100%;
   position: fixed;
   display: flex;
-  color: rgb(21, 255, 0);
+  color: rgb(0, 217, 255);
 }
 footer div {
-  background-color: rgb(95, 53, 247);
+  background-color: rgb(0, 10, 104);
   width: 100%;
 }
 footer div ul {
@@ -68,7 +71,7 @@ footer div ul li {
   padding-bottom: 10px;
 }
 footer a {
-  color: black;
+  color: rgb(82, 133, 243);
   text-decoration: none;
 }
 footer a:hover {
