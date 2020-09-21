@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+
+
+
+
 header {
   background-color: rgb(95, 53, 247);
   color: rgb(42, 252, 0);
@@ -38,12 +42,20 @@ header div {
   display: block;
   text-align: left;
 }
+
+
+
+
 .Main {
   margin-top: 130px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 50px;
 }
+
+
+
+
 footer {
   bottom: 0;
   width: 100%;
