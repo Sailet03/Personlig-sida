@@ -3,10 +3,6 @@
   margin: 0px;
 }
 
-
-
-
-
 header {
   background-color: rgb(95, 53, 247);
   color: rgb(42, 252, 0);
@@ -43,9 +39,6 @@ header div {
   text-align: left;
 }
 
-
-
-
 .Main {
   margin-top: 130px;
   padding-left: 10px;
@@ -53,25 +46,26 @@ header div {
   padding-bottom: 50px;
 }
 
-
-
-
 footer {
   bottom: 0;
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: space-evenly;
   color: rgb(21, 255, 0);
 }
 footer div {
   background-color: rgb(95, 53, 247);
   width: 100%;
 }
+footer div ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 footer div ul li {
-  padding-left: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 footer a {
   color: black;
