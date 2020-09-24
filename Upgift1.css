@@ -64,6 +64,7 @@ footer div ul {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  list-style: none;
 }
 footer div ul li {
   padding-left: 20px;
@@ -76,4 +77,23 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+.dropdown-control{
+  display: flex;
+  justify-content: center;
+  
+}
+.dropdown {
+  display: none;
+}
+.dropdown-control:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  position: absolute;
+  margin-top: 20px;
+  background-color: rgb(0, 4, 255);
 }
